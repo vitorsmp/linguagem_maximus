@@ -1,0 +1,16 @@
+#add <kit.h>
+
+main()=:
+
+
+    zonazul txt nome = mandeva("Digite seu nome: ");
+    zonazul num idade = num(mandeva("Digite sua idade: "));
+    zonazul txt formacao = mandeva("Você é formado? (s/n): ");
+    zonazul txt nacionalidade = mandeva("Qual é sua nacionalidade? ");
+    zonazul txt temPassaporte = mandeva("Você possui passaporte? (s/n): ");
+
+    if idade >= 18 tambem formacao == 's' tambem nacionalidade == 'brasileira' tambem temPassaporte == 's' =:
+        recebaa("{nome}, você atende a todos os critérios!")
+    else:
+        recebaa("{nome}, você não atende a todos os critérios.") :=
+:=
